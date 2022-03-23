@@ -1,0 +1,333 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  height: 20vh;
+  margin: auto;
+  align-items: center;
+}
+
+.first-logo {
+  margin-top: -0.9rem;
+}
+
+nav > .nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: 5rem;
+}
+
+.nav-link {
+  color: #5f5f79;
+  padding-right: 4rem;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.intro-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login,
+.cta-select {
+  margin-right: 1.5rem;
+  font-size: 1em;
+}
+
+.cta-select {
+  padding: 10px 19px 10px 19px;
+  margin-top: -1rem;
+  margin-left: 1rem;
+  background: rgb(47, 113, 218);
+  color: white;
+  border: none;
+}
+
+.cart {
+  width: 100%;
+}
+
+.introduction {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.introduction > div > h1 {
+  font-size: 5rem;
+  width: 78%;
+  max-width: 78%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  line-height: 99px;
+}
+
+.first-parag {
+  width: 54%;
+  color: #5f5f79;
+  font-size: 19px;
+  line-height: 36px;
+  padding-bottom: 30px;
+}
+
+.cta-mom {
+  padding-bottom: 115px;
+}
+
+.cta-first {
+  margin-right: 0.7rem;
+  font-size: 16px;
+  padding: 15px 19px 15px 19px;
+  background: rgb(47, 113, 218);
+  color: white;
+  border: none;
+}
+
+.cta-second {
+  font-size: 16px;
+  padding: 13.4px 19px 13.4px 19px;
+  background: white;
+  color: rgb(47, 113, 218);
+  border-color: rgb(47, 113, 218);
+}
+
+.links-mom {
+  width: 1516px;
+  left: 0px;
+}
+
+.second-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: black;
+  padding: 30px 80px 30px 80px;
+  margin-bottom: 110px;
+}
+
+.second-links > li::before {
+  content: '✔  ';
+  color: rgb(47, 113, 218);
+}
+
+.second-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.third-intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-book {
+  width: 397px;
+  height: 561.08px;
+  margin-left: 146px;
+}
+
+.h2-select {
+  display: flex;
+  font-size: 13px;
+  padding-bottom: 40px;
+  color: rgb(47, 113, 218);
+}
+
+.first-h2 {
+  padding-right: 18px;
+}
+
+.first-h2-book {
+  font-size: 46px;
+  padding-bottom: 40px;
+}
+
+.first-p {
+  color: #5f5f79;
+  font-size: 18px;
+  width: 63%;
+  line-height: 33px;
+  padding-bottom: 40px;
+}
+
+.date,
+.pages {
+  display: flex;
+  font-size: 19px;
+}
+
+.date {
+  padding-bottom: 12px;
+}
+
+.first-date,
+.first-page {
+  padding-right: 22px;
+  font-weight: bold;
+}
+
+.second-date,
+.second-page {
+  color: #5f5f79;
+}
+
+.pages {
+  padding-bottom: 40px;
+}
+
+.first-child {
+  font-size: 16px;
+  background-color: rgb(47, 113, 218);
+  color: white;
+  border: none;
+  padding: 10px 19px 10px 19px;
+  margin-right: 7px;
+}
+
+.second-child {
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: solid #5f5f79;
+  padding: 7px 19px 7px 19px;
+}
+
+.whole-intro {
+  padding-top: 85px;
+  padding-left: 170px;
+  margin-bottom: 150px;
+}
+
+.past-reports {
+  display: flex;
+  flex-direction: row;
+  padding-left: 11rem;
+  margin-bottom: 160px;
+}
+
+.second-book,
+.third-book,
+.fourth-book {
+  width: 205px;
+  height: 289px;
+}
+
+.h2-past-reports {
+  font-size: 23px;
+}
+
+.second-book {
+  margin-top: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+.feb-date {
+  color: rgb(47, 113, 218);
+  font-size: 13px;
+  margin-top: 43px;
+  margin-bottom: 30px;
+}
+
+.second-h2-book {
+  margin-bottom: 30px;
+}
+
+.past-reports-p {
+  color: #5f5f79;
+  margin-bottom: 100px;
+  width: 70%;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.third-fourth-book {
+  display: flex;
+  margin-top: 89px;
+}
+
+.second-book-div {
+  margin-top: 1px;
+  margin-right: 350px;
+}
+
+.third-book {
+  margin-bottom: 4px;
+}
+
+.jan-date {
+  color: rgb(47, 113, 218);
+  font-size: 16px;
+  margin-top: 37px;
+  margin-bottom: 30px;
+}
+
+.third-h2-book {
+  width: 200%;
+  padding-bottom: 30px;
+}
+
+.third-book-p {
+  color: #5f5f79;
+  width: 100%;
+  font-size: 16px;
+  line-height: 29px;
+  margin-bottom: 100px;
+}
+
+.fourth-book {
+  margin-bottom: 4px;
+}
+
+.dec-date {
+  color: rgb(47, 113, 218);
+  font-size: 16px;
+  margin-top: 37px;
+  margin-bottom: 30px;
+}
+
+.fourth-h2-book {
+  padding-bottom: 20px;
+}
+
+.fourth-book-p {
+  color: #5f5f79;
+  width: 100%;
+  font-size: 16px;
+  line-height: 29px;
+  margin-bottom: 81px;
+}
+
+.second-book-div {
+  margin-left: 170px;
+}
+
+.fourth-book-div {
+  margin-right: 120px;
+}
